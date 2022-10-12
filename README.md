@@ -14,3 +14,10 @@ pip install --upgrade --user nbconvert
 
 virtualenv --python=python3.9 .ibge
 ```
+
+
+abrir o jupyter com o comando (na pasta do projeto):
+
+```bash
+jupyter notebook .
+```
