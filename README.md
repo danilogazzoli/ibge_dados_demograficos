@@ -6,13 +6,15 @@ rodar no terminal:
 ```bash
 sudo apt install virtualenv
 
+virtualenv --python=python3.9 .ibge
+
 source .ibge/bin/activate
 
 pip install --upgrade jupyterhub
 
 pip install --upgrade --user nbconvert
 
-virtualenv --python=python3.9 .ibge
+pip install -r requirements.txt
 ```
 
 
