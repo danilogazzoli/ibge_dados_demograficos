@@ -1,7 +1,7 @@
 # ibge_dados_demograficos
 Raspagem dos dados da página do IBGE, passando como parâmetro a cidade e UF
 
-rodar no terminal:
+rodar no terminal (linux):
 
 ```bash
 sudo apt install virtualenv
